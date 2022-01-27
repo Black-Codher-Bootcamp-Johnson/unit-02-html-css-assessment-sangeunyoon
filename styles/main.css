@@ -1,0 +1,61 @@
+     
+
+ @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Licorice&family=Lobster&family=Lobster+Two:wght@700&family=Urbanist:wght@100&display=swap");
+
+
+body{
+    font-family: Lobster;
+    background:repeating-linear-gradient(50deg,#13298b,#4f8ec2,#fdc0ee);
+    font-size: 1em;
+    padding:1em;
+    
+}
+
+.navbar {
+    width:50%;
+    margin-left: 50%;
+    
+  
+
+}
+
+.nav_list{ 
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#profile-image{
+    border-radius: 10px; 
+   box-shadow: 0 8px 12px rgba(132, 124, 108, 0.1);
+    width: 270px;
+    height: 270px;
+    cursor: pointer;
+    border-color:cadetblue;
+
+}
+#profile-image:hover{
+padding-top: -2em;
+opacity: 0.5;
+
+}
+
+ #about {
+    display: grid;
+    grid-gap:1em;
+    grid-template-columns: auto auto;
+}
+    
+
+@media only screen and(min-width: 900px) {
+   
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}

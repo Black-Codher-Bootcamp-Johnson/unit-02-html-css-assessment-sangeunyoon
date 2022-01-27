@@ -5,14 +5,11 @@
     <meta lang="en" />
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="/styles/main.css" />
-      <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link
-      rel="stylesheet"
-      href="styles/font-awesome.css"
-      type="text/css"
-      
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/font-awesome.css" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
   
+
     <title>San Yoon | Blackcodher student</title>
   </head>
   <body>
@@ -35,7 +32,7 @@
         <h1>Hi, my name is Sangeun Yoon.</h1>
       </div>
       <!-- <div class="fadeup-enter-done" style="transition-delay: 200ms;"> -->
-      
+
       <div class="fadeup-enter-done" style="transition-delay: 300ms">
         <h3 class="big-heading">I am a creative front-end developer</h3>
       </div>
@@ -55,7 +52,7 @@
     <hr />
     <!--About me-->
     <h2 class="numbered-heading">"About Me"</h2>
-    <section id="about">
+    <section id="about-me">
       <div class="inner">
         <div>
           <p>
@@ -75,14 +72,9 @@
           <li>"React"</li>
         </ul>
       </div>
-    
+
       <!-- <div class="my-picture"> -->
-        <img 
-          id="profile-image" 
-          src="images/IMG_5256.jpg"
-          alt="headshot"
-      
-        />
+      <img id="profile-image" src="images/IMG_5256.jpg" alt="headshot" />
       <!-- </div> -->
     </section>
     <br />
@@ -102,20 +94,88 @@
     </section>
     <hr />
     <!--timeline-->
-    <section class="timeline">
+    <section id="timeline">
       <h3>San's Timeline</h3>
 
       <ol class="timeline">
-        <li>2011-finished School, majored in Enligh</li>
-        <li>2011-2017-Worked as an English teacher</li>
+        <!--item2-->
+        
+        <!--item 3-->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+             <span class="flag">Joined Blackcodher bootcamp</span>
+            <span class="time-wrapper"><span class="time">
+              2021
+            </span></span>
+            </div> 
+            <div class="desc"> Started front-end bootcamp in November.
+            </div>
+           </div>
+           </li>
+        <!-- item 4-->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+             <span class="flag">Started to work at Booking.com</span>
+            <span class="time-wrapper"><span class="time">
+              2018
+            </span></span>
+            </div> 
+            <div class="desc">Started to work at Booking.com. 
+              worked at recruitment team, mainly helped to hire people for internal vacancies. 
+              currently working at Korean market as a customer advisor.
+            </div>
+           </div>
+           </li>
+        <!--item5-->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+             <span class="flag">Moved to England</span>
+            <span class="time-wrapper"><span class="time">
+              2017
+            </span></span>
+            </div> 
+            <div class="desc">Moved to England from S.Korea</div>
+           </div>
+           </li>
+        <!--item6-->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+             <span class="flag">First job</span>
+            <span class="time-wrapper"><span class="time">
+              2011 - 2017
+            </span></span>
+            </div> 
+            <div class="desc">worked as an English teacher</div>
+           </div>
+           </li>
+
+        
+        <!--Item 7-->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+             <span class="flag">finished schools</span>
+            <span class="time-wrapper"><span class="time">
+              2009 - 2011
+            </span></span>
+            </div> 
+            <div class="desc">Finished school, Majored in English</div>
+           </div>
+           </li>
+
+        <!-- <li>2011-2017-Worked as an English teacher</li>
         <li>2017-Moved to England</li>
         <li>2017-Part time worked at Holister in Trafford Centre</li>
         <li>2018-started working in Booking.com</li>
         <li>2021-joined the Black Codher Bootcamp</li>
         <li>
           2022-Been to 25 contries so far,and still want to explore more!!
-        </li>
-      </ol>
+        </li>-->
+      </ol> 
     </section>
     <hr />
     <!-- <footer>
@@ -125,50 +185,54 @@
         <li>Github</li>
       </ul>
     </footer> -->
-<h2>Contact</h2>
-<form action="/action_page.php">
-  <label for="fname">First name: </label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name: </label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <label for="text">Please leave the memo</label>
-  <input type="text" id="memo" name="memo">
-  <label for="email">Please enter your email:</label>
-  <input type="email" id="email" name="email">
-  <input type="submit" value="Submit">
-  <p>Click on the submit button to submit the form.</p>
-</form>
- 
-<i class="fas fa-book"></i>
-  
-
+    <h2 id="contact">Contact</h2>
+    <form>
+      <label for="fname"
+        >First name: <input type="text" id="fname" name="fname" />
+      </label>
+      <label for="lname"
+        >Last name:<input type="text" id="lname" name="lname" />
+      </label>
+      <label for="memo"
+        >Please leave the memo<textarea
+          name="memo"
+          id="memo"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </label>
+      <label for="email"
+        >Please enter your email:<input type="email" id="email" name="email"
+      /></label>
+      <input type="submit" value="Submit" />
+    </form>
+<hr/>
     <footer class="footer">
       <!-- <div class="container"> -->
-        <!-- <nav class="pull-left"></nav> -->
-        <ul ckass="icon">
-          <li>
-            <i class="fas fa-instagram"></i
-            ><a
-              href="https://www.instagram.com/cherryblossom_se/"
-              target="_blank"
-            ></a>
-          </li>
-          <li>
-            <i class="fas fa-linkedin-in"></i
-            ><a
-              href="https://www.linkedin.com/in/sangeunyoon/"
-              target="_blank"
-            ></a>
-          </li>
-          <li>
-            <i class="fas fa-github"></i
-            ><a
-              href="https://github.com/sangeunyoon/portfolio"
-              target="_blank"
-            ></a>
-          </li>
-        </ul>
-      </div>
+      <!-- <nav class="pull-left"></nav> -->
+      <ul class="social-media">
+        <li>
+          <i class="fas fa-instagram"></i
+          ><a
+            href="https://www.instagram.com/cherryblossom_se/"
+            target="_blank"
+          ></a>
+        </li>
+        <li>
+          <i class="fas fa-linkedin-in"></i
+          ><a
+            href="https://www.linkedin.com/in/sangeunyoon/"
+            target="_blank"
+          ></a>
+        </li>
+        <li>
+          <i class="fas fa-github"></i
+          ><a
+            href="https://github.com/sangeunyoon/portfolio"
+            target="_blank"
+          ></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

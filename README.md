@@ -1,4 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cb43b80c-fe77-4ea7-b9ef-27e250567df8/deploy-status)](https://app.netlify.com/sites/sangeunbot/deploys)
+
+https://app.netlify.com/sites/sangeunbot/settings/domain
 # HTML and CSS Assessment
 
 For your unit 2 assessment you are required to create a website portfolio in HTML and CSS. As you progress throughout the course you are expected to continue adding and refining your portfolio, however by the due date of this assessment you must have what is stated in the [criteria](#assessment-criteria) pushed to your portfolio GitHub ready to be marked.

@@ -6,10 +6,8 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="/styles/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles/font-awesome.css" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
-  
-
+    <script src="https://kit.fontawesome.com/2e973c349a.js" crossorigin="anonymous"></script> 
     <title>San Yoon | Blackcodher student</title>
   </head>
   <body>
@@ -51,8 +49,8 @@
     </section>
     <hr />
     <!--About me-->
-    <h2 class="numbered-heading">"About Me"</h2>
-    <section id="about-me">
+    <h2 id="about">"About Me"</h2>
+    <section class="about-me">
       <div class="inner">
         <div>
           <p>
@@ -74,14 +72,14 @@
       </div>
 
       <!-- <div class="my-picture"> -->
-      <img id="profile-image" src="images/IMG_5256.jpg" alt="headshot" />
+      <img id="profile-image" src="images/IMG_5256.jpg" alt="headshot"  />
       <!-- </div> -->
     </section>
     <br />
     <hr />
     <!--Here are my projects-->
-    <section id="projects">
-      <h2 class="numbered-heading">
+    <!-- <section id="projects"> -->
+      <h2 id="projects">
         Here are some projects that I am working on.
       </h2>
       <ul class="projects">
@@ -178,59 +176,54 @@
       </ol> 
     </section>
     <hr />
-    <!-- <footer>
-      <ul class="social-media">
-        <li>instagram</li>
-        <li>linked-in</li>
-        <li>Github</li>
-      </ul>
-    </footer> -->
+ 
     <h2 id="contact">Contact</h2>
-    <form>
-      <label for="fname"
-        >First name: <input type="text" id="fname" name="fname" />
-      </label>
-      <label for="lname"
-        >Last name:<input type="text" id="lname" name="lname" />
-      </label>
-      <label for="memo"
-        >Please leave the memo<textarea
-          name="memo"
-          id="memo"
+    <section > 
+      <div class="container"> 
+    <form action="">
+      
+      <div class="form-group">
+      <label for="fname">First name</label>
+         <input type="text" id="fname" name="fname" />
+    </div>
+
+    <div class="form-group">
+      <label for="lname">Last name  </label>
+        <input type="text" id="lname" name="lname" />
+    </div>
+    
+    <div class="form-group">
+     
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea
+          name="message"
+          id="message"
           cols="30"
           rows="10"
         ></textarea>
-      </label>
-      <label for="email"
-        >Please enter your email:<input type="email" id="email" name="email"
-      /></label>
-      <input type="submit" value="Submit" />
+    </div>
+    <button type="submit">Submit</button>
     </form>
+  </div>
+  </section>
 <hr/>
     <footer class="footer">
       <!-- <div class="container"> -->
       <!-- <nav class="pull-left"></nav> -->
       <ul class="social-media">
         <li>
-          <i class="fas fa-instagram"></i
-          ><a
-            href="https://www.instagram.com/cherryblossom_se/"
-            target="_blank"
-          ></a>
+          <a href="https://www.instagram.com/cherryblossom_se/" target="_blank"><i class="fab fa-instagram fa-3x" ></i></a>
         </li>
         <li>
-          <i class="fas fa-linkedin-in"></i
-          ><a
-            href="https://www.linkedin.com/in/sangeunyoon/"
-            target="_blank"
-          ></a>
+          <a href="https://www.linkedin.com/in/sangeunyoon/"target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
         </li>
         <li>
-          <i class="fas fa-github"></i
-          ><a
-            href="https://github.com/sangeunyoon/portfolio"
-            target="_blank"
-          ></a>
+          <a href="https://github.com/Black-Codher-Bootcamp-Johnson/unit-02-html-css-assessment-sangeunyoon" target="_blank"><i class="fab fa-github fa-3x"></i></a>
         </li>
       </ul>
     </footer>
